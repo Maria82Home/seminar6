@@ -7,10 +7,8 @@ public class seminar6 {
     public static void main(String[] args) {
         MySet<Integer> ms = new MySet<>();
         HashSet hs = new HashSet();
-//        hs.add(888);
         System.out.println(ms.add(456));
         System.out.println(ms.add(456));
-//        System.out.println(ms.add(4));
         System.out.println(ms.size());
         System.out.println(ms.remove(456));
         System.out.println(ms.remove(456));
